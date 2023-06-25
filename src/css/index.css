@@ -21,24 +21,54 @@
 }
 
 
-.bg_gradident {
+/* .bg_gradident {
   height: 100%;
   width: 100%;
-  background-color: #7030A0; /* For browsers that do not support gradients */
+  background-color: #7030A0; For browsers that do not support gradients 
   background-image: radial-gradient(farthest-corner at 50% 50%, white, white, #7030A0);
+} */
+
+
+
+
+.background_color_170110 {
+    background-color: #170110;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.words_image_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+}
+
+.words_image_center img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.words_image_center p {
+    font-family: Anta;
+    font-size: xx-large;
+    color: #FFC000;
 }
 
 
+/* gradient before footer  */
 
+.background_color_170110_gradient{
+    width: 100%;
+    height: 200px;
+    background-color: #7030A0; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#170110, #7030A0);
+}
 
-
-
-
-
-
-
-
-
+/* footer css */
 
 footer {
     width: 100%;
@@ -46,15 +76,25 @@ footer {
     bottom:0;
     left:0;
     text-align: center;
-    color: gray;
     /* color: gainsboro; */
-    background-color:#e9ecef;
+    background-color:#7030A0;
     margin: 0 0 0;
+    padding: 10 0 10;
 }
 footer p {
+    color: #ffc000;
     margin-bottom: 0;
+    opacity: 0.8;
 }
 
 footer a {
-    opacity: 0.5;
+    font-style: italic;
+    color: #ffc000;
+    text-decoration: underline;
+    /* opacity: 0.9; */
+}
+
+.footer_copyright {
+    color: #ffc000;
+    opacity: 0.8;
 }
