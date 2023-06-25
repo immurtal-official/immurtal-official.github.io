@@ -11,6 +11,7 @@
 <link rel="icon" href="src/img/MU_for_ico_purplebg.ico" >
 
 <script src="src/components/footer.js" type="text/javascript" defer></script>
+<script src="src/js/slider_store_pub_distr_stream.js"></script>
 
 </head>
 
@@ -21,12 +22,12 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-16 background_color_170110">
+            <div class="col-sm-12 background_color_170110">
                 <img src="src/img/front_image.jpeg" style="max-width: 100%; height: auto;" alt="Immurtal Front Image">
 
             </div>
 
-            <div class="col-sm-16 background_color_170110">
+            <div class="col-sm-12 background_color_170110">
                 <div class="words_image_center">
                     <img src="src/img/words_image/we_empower_musicians.png" style="max-width: 100%; height: auto;" alt="we empower musicians">
                     <img src="src/img/words_image/with_decentralized.png" style="max-width: 98.67%; height: auto;" alt="with decentralized">
@@ -34,21 +35,77 @@
                 </div>
             </div>
 
-            <div class="col-sm-16 background_color_170110">
+            <div class="col-sm-2 background_color_170110">
+                <div class="words_image_arrowleft">
+                    <img id="words_image_arrow_left" src="src/img/words_image/arrow_left.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-sm-8 background_color_170110">
+                <!--image slider start-->
+                <div class="words_image_center_special_slider">
+                  <div class="slides">
+                    <!--radio buttons start-->
+                    <input type="radio" name="radio-btn-SPDS-indexpage" id="radio_SPDS_indexpage1">
+                    <input type="radio" name="radio-btn-SPDS-indexpage" id="radio_SPDS_indexpage2">
+                    <input type="radio" name="radio-btn-SPDS-indexpage" id="radio_SPDS_indexpage3">
+                    <input type="radio" name="radio-btn-SPDS-indexpage" id="radio_SPDS_indexpage4">
+                    <!--radio buttons end-->
+
+                    <!--slide images start-->
+                    <div class="slide first">
+                      <img id="words_image_slide_image1" src="src/img/words_image/Storing.png"   alt="">
+                    </div>
+                    <div class="slide">
+                      <img id="words_image_slide_image2" src="src/img/words_image/Publishing.png"  alt="">
+                    </div>
+                    <div class="slide">
+                      <img id="words_image_slide_image3" src="src/img/words_image/Distributing.png"  alt="">
+                    </div>
+                    <div class="slide">
+                      <img id="words_image_slide_image4" src="src/img/words_image/Streaming.png"  alt="">
+                    </div>
+                    <!--slide images end-->
+
+                    
+
+                    <!--automatic navigation start-->
+                    <div class="navigation-auto">
+                      <div class="auto-btn1"></div>
+                      <div class="auto-btn2"></div>
+                      <div class="auto-btn3"></div>
+                      <div class="auto-btn4"></div>
+                    </div>
+                    <!--automatic navigation end-->
+                  </div>
+                  
+                </div>
+                <!--image slider end-->
+            </div>
+
+            <div class="col-sm-2 background_color_170110">
+                <div class="words_image_arrowright">
+                    <img src="src/img/words_image/arrow_right.png"  alt="">
+                </div>
+            </div>
+
+            <!-- Node -->
+            <div class="col-sm-12 background_color_170110">
                 <div class="words_image_center">
                     <img src="src/img/words_image/Nodes.png" style="max-width: 22.18%; height: auto;" alt="Nodes">
                     <p>A node represents an individual point within the distributed network, often a computer, a smartphone, or a server, that stores and distributes the music files and associated data. Each node independently verifies and maintains the integrity of data, including audio files and on-chain copyright certificates, ensuring the resilience, security, and smooth operation of the network.</p>
                 </div>
             </div>
 
-            <div class="col-sm-16 background_color_170110">
+            <!-- Smart Contracts -->
+            <div class="col-sm-12 background_color_170110">
                 <div class="words_image_center">
                     <img src="src/img/words_image/Smart_Contracts.png" style="max-width: 63.3%; height: auto;" alt="Smart Contracts">
                     <p>Smart Contracts are programs on Blockcahin that execute automatically when certain conditions are met, for example when a fan pays to download a song, S.C. can distribute payments immediately and transparently, potentially reducing delays and disputes in payment. These smart contracts will be implemented across the whole infrastructure, empowering storing, publishing, distributing, and streaming experiences.</p>
                 </div>
             </div>
 
-            <div class="col-sm-16 background_color_170110_gradient">
+            <div class="col-sm-12 background_color_170110_gradient">
                 <!-- No text to dsiplay here. Only for gradient. -->
             </div>
         </div>
