@@ -1,5 +1,5 @@
 
-@font-face { font-family: Anta; src: url('./src/font/Anta.ttf'); } 
+@font-face { font-family: Anta; src: url('../font/Anta.ttf'); } 
 
 .center {
   text-align: center;
