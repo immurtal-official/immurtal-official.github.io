@@ -23,12 +23,20 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-14 background_color_170110">
-                <img
+                <!-- <img
                 srcset="src/img/front_image_229px_portrait.png 229w, src/img/front_image_1024px.png 1024w, src/img/front_image_2048px.png 2048w, src/img/front_image.png 4096w"
-                sizes="(max-width: 300px) 229px, (max-width: 1024px) 1024px, (max-width: 2048px) 2048px, 4096px"
+                sizes="(max-width: 300px) 229px, (min-width: 301px) and (max-width: 1024px) 1024px, (min-width: 1025px) and (max-width: 2048px) 2048px, 4096px"
                 src="src/img/front_image_1024px.png"
                 style="max-width: 100%; height: auto;"
-                alt="Immurtal Front Image" />
+                alt="Immurtal Front Image" /> -->
+
+                <picture>
+                    <source srcset="src/img/front_image_229px_portrait.png" media="(max-width: 300px)">
+                    <source srcset="src/img/front_image_1024px.png" media="(min-width: 301px) and (max-width: 1024px)">
+                    <source srcset="src/img/front_image_2048px.png" media="(min-width: 1025px) and (max-width: 2048px)">
+                    <source srcset="src/img/front_image.png" media="(min-width: 2049px)">
+                    <img srcset="src/img/front_image_1024px.png" style="max-width: 100%; height: auto;" alt="Immurtal Front Image">
+                </picture>
             </div>
 
             <div class="col-sm-12 background_color_170110">
