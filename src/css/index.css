@@ -54,7 +54,7 @@
 }
 
 
-
+/* image slider begin */
 /* image slider auto and no button shown */
   
 .words_image_center_special_slider {   
@@ -94,7 +94,21 @@
     margin-left: -75%;
 }
 
+#radio_SPDS_indexpage_detailtext1:checked ~ .first{
+    margin-left: 0;
+}
+#radio_SPDS_indexpage_detailtext2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio_SPDS_indexpage_detailtext3:checked ~ .first{
+    margin-left: -50%;
+}
+#radio_SPDS_indexpage_detailtext4:checked ~ .first{
+    margin-left: -75%;
+}
+
 /* image slider auto end */
+/* image slider end */
 
 
 .words_image_arrowleft {
