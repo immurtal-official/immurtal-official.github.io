@@ -7,7 +7,6 @@ class Footer extends HTMLElement {
       this.innerHTML = `
         <footer>
             
-            <p>Created by <a href="https://dayuantan.github.io/AboutMe/">Dayuan Tan</a> and <a href="https://www.deer.ma/">Deer Ma</a> with &#10084;&#65039;.
             <br>
             Leave us a message by <a href="https://xh2uqicvmvy.typeform.com/to/jo6WmwDq">filling in this form</a>.
             <br>
