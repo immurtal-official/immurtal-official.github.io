@@ -24,7 +24,7 @@
 
 
 
-.background_color_170110 {
+.background_color_specific {
     /* background-color: #170110; */
     /* background-color: #190110; */
     background-color: #1a0112;
@@ -139,7 +139,7 @@
 
 /* gradient before footer  */
 
-.background_color_170110_gradient{
+.background_color_specific_gradient{
     width: 100%;
     height: 200px;
     background-color: #7030A0; /* For browsers that do not support gradients */
