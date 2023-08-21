@@ -15,7 +15,7 @@
 }
 .slide {
     width: 25%;
-    transition: 5s;
+    transition: 3s;
 }  
 .slide img{
     width: 100%;
@@ -65,3 +65,40 @@
 /* image slider auto end */
 /* image slider end */
 
+
+
+/* slider buttons start */
+
+/*css for manual slide navigation*/
+  
+.navigation-manual{
+    position: absolute;
+    width: 100%;     
+    display: flex;
+    justify-content: center;
+    margin-top: -2%;
+}
+
+.manual-btn{
+    border: 2px solid #FFC000;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background: #FFC000;
+}
+
+.manual-btn-active {
+    background: #FFC000;
+}
+
+
+
+/* slider buttons end */
