@@ -15,7 +15,7 @@
 }
 .slide {
     width: 25%;
-    transition: 4s;
+    transition: 5s;
 }  
 .slide img{
     width: 100%;
@@ -24,6 +24,15 @@
     padding-top: auto;
     padding-bottom: auto;
 }
+.slide p{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Anta;
+    font-size: xx-large;
+    color: #FFC000;
+    text-align: justify;
+} 
 
 
 #radio_SPDS_indexpage1:checked ~ .first{
@@ -43,7 +52,8 @@
     margin-left: 0;
 }
 #radio_SPDS_indexpage_detailtext2:checked ~ .first{
-    margin-left: -25%;
+    /* 25% + 10% margin left  = 35% */
+    margin-left: -25%; 
 }
 #radio_SPDS_indexpage_detailtext3:checked ~ .first{
     margin-left: -50%;
